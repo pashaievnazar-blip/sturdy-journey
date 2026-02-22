@@ -11,8 +11,6 @@ Original file is located at
 Якщо будете запускати потім бота локально, то при встановлені бібліотек приберіть ! символ
 """
 
-
-!pip install --upgrade google-generativeai
 import telegram
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
