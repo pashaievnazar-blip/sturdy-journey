@@ -4,3 +4,4 @@ notion-client
 python-telegram-bot
 google-generativeai
 nest_asyncio
+upgrade google-generativeai
