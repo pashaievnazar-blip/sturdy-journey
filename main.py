@@ -11,9 +11,6 @@ Original file is located at
 Якщо будете запускати потім бота локально, то при встановлені бібліотек приберіть ! символ
 """
 
-!pip install python-telegram-bot google-generativeai
-
-!pip install nest_asyncio
 
 !pip install --upgrade google-generativeai
 import telegram
