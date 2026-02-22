@@ -1,6 +1,6 @@
 aiogram
-python-dotenv
 notion-client
-python-telegram-bot
-google-generativeai
 nest_asyncio
+python-telegram-bot==20.3
+python-dotenv==1.0.0
+google-generativeai==0.3.1
