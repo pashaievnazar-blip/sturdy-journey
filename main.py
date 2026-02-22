@@ -60,7 +60,7 @@ Tone: Professional, analytical, growth-oriented, and encouraging. Use English fo
 
 # АПІ ключі - замініть на свої!
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')  # Get from BotFather on Telegram
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')      # Get from Google AI Studio
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEYY')      # Get from Google AI Studio
 
 # Notion API Keys - Replace with your own!
 NOTION_TOKEN = os.getenv('NOTION_TOKEN') # Get from Notion Integrations
