@@ -59,12 +59,12 @@ Tone: Professional, analytical, growth-oriented, and encouraging. Use English fo
 """
 
 # АПІ ключі - замініть на свої!
-TELEGRAM_TOKEN = '8516575692:AAGOIVbGT5a4jkjIKI8zDAqySB8hcPPM6Io'  # Get from BotFather on Telegram
-GEMINI_API_KEY = 'AIzaSyBWZk8JzW2Hm-aSPQ8i2deS6dwrdKwioDU'      # Get from Google AI Studio
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')  # Get from BotFather on Telegram
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')      # Get from Google AI Studio
 
 # Notion API Keys - Replace with your own!
-NOTION_TOKEN = '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' # Get from Notion Integrations
-NOTION_DATABASE_ID = '30baf3d9b1248030a47ff4b579c6a9a3' # Get from your Notion database URL
+NOTION_TOKEN = os.getenv('NOTION_TOKEN') # Get from Notion Integrations
+NOTION_DATABASE_ID = os.getenv('NOTION_DATABASE_ID')  # Get from your Notion database URL
 
 # Конфігурація Геміні
 genai.configure(api_key=GEMINI_API_KEY)
